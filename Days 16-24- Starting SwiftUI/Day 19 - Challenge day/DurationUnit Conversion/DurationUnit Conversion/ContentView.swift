@@ -62,7 +62,7 @@ struct ContentView: View {
                         .font(.caption)
                     Picker("Select the input unit", selection: $unitInputIndex) {
                         ForEach(0 ..< units.count) {
-                            Text("\(units[$0])")
+                            Text("\(self.units[$0])")
                         }
                     }
                     .pickerStyle(SegmentedPickerStyle())
@@ -73,7 +73,7 @@ struct ContentView: View {
                         .font(.caption)
                     Picker("Select the output unit", selection: $unitOutputIndex) {
                         ForEach(0 ..< units.count) {
-                            Text("\(units[$0])")
+                            Text("\(self.units[$0])")
                         }
                     }
                     .pickerStyle(SegmentedPickerStyle())

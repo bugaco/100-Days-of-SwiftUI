@@ -47,6 +47,7 @@ struct ContentView: View {
                             Text("\(tipPercentages[$0])%")
                         }
                     }
+                    .navigationBarTitle(Text("Foo"))
                     .pickerStyle(SegmentedPickerStyle())
                 }
             }

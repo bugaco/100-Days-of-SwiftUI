@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A75DB02B25008F9C0079C038 /* DurationUnit_ConversionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DB02A25008F9C0079C038 /* DurationUnit_ConversionApp.swift */; };
-		A75DB02D25008F9C0079C038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DB02C25008F9C0079C038 /* ContentView.swift */; };
-		A75DB02F25008F9E0079C038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DB02E25008F9E0079C038 /* Assets.xcassets */; };
-		A75DB03225008F9E0079C038 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DB03125008F9E0079C038 /* Preview Assets.xcassets */; };
+		A7D87AF72500C3920084825C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D87AF62500C3920084825C /* AppDelegate.swift */; };
+		A7D87AF92500C3920084825C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D87AF82500C3920084825C /* SceneDelegate.swift */; };
+		A7D87AFB2500C3920084825C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D87AFA2500C3920084825C /* ContentView.swift */; };
+		A7D87AFD2500C3940084825C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D87AFC2500C3940084825C /* Assets.xcassets */; };
+		A7D87B002500C3940084825C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D87AFF2500C3940084825C /* Preview Assets.xcassets */; };
+		A7D87B032500C3940084825C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D87B012500C3940084825C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A75DB02725008F9C0079C038 /* DurationUnit Conversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DurationUnit Conversion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A75DB02A25008F9C0079C038 /* DurationUnit_ConversionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationUnit_ConversionApp.swift; sourceTree = "<group>"; };
-		A75DB02C25008F9C0079C038 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A75DB02E25008F9E0079C038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A75DB03125008F9E0079C038 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A75DB03325008F9E0079C038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D87AF32500C3920084825C /* Guess the Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess the Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D87AF62500C3920084825C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7D87AF82500C3920084825C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7D87AFA2500C3920084825C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7D87AFC2500C3940084825C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7D87AFF2500C3940084825C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7D87B022500C3940084825C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7D87B042500C3940084825C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A75DB02425008F9C0079C038 /* Frameworks */ = {
+		A7D87AF02500C3920084825C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A75DB01E25008F9C0079C038 = {
+		A7D87AEA2500C3920084825C = {
 			isa = PBXGroup;
 			children = (
-				A75DB02925008F9C0079C038 /* DurationUnit Conversion */,
-				A75DB02825008F9C0079C038 /* Products */,
+				A7D87AF52500C3920084825C /* Guess the Flag */,
+				A7D87AF42500C3920084825C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A75DB02825008F9C0079C038 /* Products */ = {
+		A7D87AF42500C3920084825C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A75DB02725008F9C0079C038 /* DurationUnit Conversion.app */,
+				A7D87AF32500C3920084825C /* Guess the Flag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A75DB02925008F9C0079C038 /* DurationUnit Conversion */ = {
+		A7D87AF52500C3920084825C /* Guess the Flag */ = {
 			isa = PBXGroup;
 			children = (
-				A75DB02A25008F9C0079C038 /* DurationUnit_ConversionApp.swift */,
-				A75DB02C25008F9C0079C038 /* ContentView.swift */,
-				A75DB02E25008F9E0079C038 /* Assets.xcassets */,
-				A75DB03325008F9E0079C038 /* Info.plist */,
-				A75DB03025008F9E0079C038 /* Preview Content */,
+				A7D87AF62500C3920084825C /* AppDelegate.swift */,
+				A7D87AF82500C3920084825C /* SceneDelegate.swift */,
+				A7D87AFA2500C3920084825C /* ContentView.swift */,
+				A7D87AFC2500C3940084825C /* Assets.xcassets */,
+				A7D87B012500C3940084825C /* LaunchScreen.storyboard */,
+				A7D87B042500C3940084825C /* Info.plist */,
+				A7D87AFE2500C3940084825C /* Preview Content */,
 			);
-			path = "DurationUnit Conversion";
+			path = "Guess the Flag";
 			sourceTree = "<group>";
 		};
-		A75DB03025008F9E0079C038 /* Preview Content */ = {
+		A7D87AFE2500C3940084825C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A75DB03125008F9E0079C038 /* Preview Assets.xcassets */,
+				A7D87AFF2500C3940084825C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,38 +78,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A75DB02625008F9C0079C038 /* DurationUnit Conversion */ = {
+		A7D87AF22500C3920084825C /* Guess the Flag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A75DB03625008F9E0079C038 /* Build configuration list for PBXNativeTarget "DurationUnit Conversion" */;
+			buildConfigurationList = A7D87B072500C3940084825C /* Build configuration list for PBXNativeTarget "Guess the Flag" */;
 			buildPhases = (
-				A75DB02325008F9C0079C038 /* Sources */,
-				A75DB02425008F9C0079C038 /* Frameworks */,
-				A75DB02525008F9C0079C038 /* Resources */,
+				A7D87AEF2500C3920084825C /* Sources */,
+				A7D87AF02500C3920084825C /* Frameworks */,
+				A7D87AF12500C3920084825C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "DurationUnit Conversion";
-			productName = "DurationUnit Conversion";
-			productReference = A75DB02725008F9C0079C038 /* DurationUnit Conversion.app */;
+			name = "Guess the Flag";
+			productName = "Guess the Flag";
+			productReference = A7D87AF32500C3920084825C /* Guess the Flag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A75DB01F25008F9C0079C038 /* Project object */ = {
+		A7D87AEB2500C3920084825C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = BugaCo;
 				TargetAttributes = {
-					A75DB02625008F9C0079C038 = {
-						CreatedOnToolsVersion = 12.0;
+					A7D87AF22500C3920084825C = {
+						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = A75DB02225008F9C0079C038 /* Build configuration list for PBXProject "DurationUnit Conversion" */;
+			buildConfigurationList = A7D87AEE2500C3920084825C /* Build configuration list for PBXProject "Guess the Flag" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +118,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A75DB01E25008F9C0079C038;
-			productRefGroup = A75DB02825008F9C0079C038 /* Products */;
+			mainGroup = A7D87AEA2500C3920084825C;
+			productRefGroup = A7D87AF42500C3920084825C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A75DB02625008F9C0079C038 /* DurationUnit Conversion */,
+				A7D87AF22500C3920084825C /* Guess the Flag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A75DB02525008F9C0079C038 /* Resources */ = {
+		A7D87AF12500C3920084825C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75DB03225008F9E0079C038 /* Preview Assets.xcassets in Resources */,
-				A75DB02F25008F9E0079C038 /* Assets.xcassets in Resources */,
+				A7D87B032500C3940084825C /* LaunchScreen.storyboard in Resources */,
+				A7D87B002500C3940084825C /* Preview Assets.xcassets in Resources */,
+				A7D87AFD2500C3940084825C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A75DB02325008F9C0079C038 /* Sources */ = {
+		A7D87AEF2500C3920084825C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75DB02D25008F9C0079C038 /* ContentView.swift in Sources */,
-				A75DB02B25008F9C0079C038 /* DurationUnit_ConversionApp.swift in Sources */,
+				A7D87AF72500C3920084825C /* AppDelegate.swift in Sources */,
+				A7D87AF92500C3920084825C /* SceneDelegate.swift in Sources */,
+				A7D87AFB2500C3920084825C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A7D87B012500C3940084825C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D87B022500C3940084825C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		A75DB03425008F9E0079C038 /* Debug */ = {
+		A7D87B052500C3940084825C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -207,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		A75DB03525008F9E0079C038 /* Release */ = {
+		A7D87B062500C3940084825C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,44 +282,40 @@
 			};
 			name = Release;
 		};
-		A75DB03725008F9E0079C038 /* Debug */ = {
+		A7D87B082500C3940084825C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DurationUnit Conversion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Guess the Flag/Preview Content\"";
 				DEVELOPMENT_TEAM = 8TWNALTCHM;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "DurationUnit Conversion/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = "Guess the Flag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bugaco.DurationUnit-Conversion";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bugaco.Guess-the-Flag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A75DB03825008F9E0079C038 /* Release */ = {
+		A7D87B092500C3940084825C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DurationUnit Conversion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Guess the Flag/Preview Content\"";
 				DEVELOPMENT_TEAM = 8TWNALTCHM;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "DurationUnit Conversion/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = "Guess the Flag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bugaco.DurationUnit-Conversion";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bugaco.Guess-the-Flag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A75DB02225008F9C0079C038 /* Build configuration list for PBXProject "DurationUnit Conversion" */ = {
+		A7D87AEE2500C3920084825C /* Build configuration list for PBXProject "Guess the Flag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A75DB03425008F9E0079C038 /* Debug */,
-				A75DB03525008F9E0079C038 /* Release */,
+				A7D87B052500C3940084825C /* Debug */,
+				A7D87B062500C3940084825C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A75DB03625008F9E0079C038 /* Build configuration list for PBXNativeTarget "DurationUnit Conversion" */ = {
+		A7D87B072500C3940084825C /* Build configuration list for PBXNativeTarget "Guess the Flag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A75DB03725008F9E0079C038 /* Debug */,
-				A75DB03825008F9E0079C038 /* Release */,
+				A7D87B082500C3940084825C /* Debug */,
+				A7D87B092500C3940084825C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A75DB01F25008F9C0079C038 /* Project object */;
+	rootObject = A7D87AEB2500C3920084825C /* Project object */;
 }
